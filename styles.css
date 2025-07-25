@@ -12,17 +12,17 @@ body {
 
 main {
   width: 97vw;
-  height: 100vh;
+  height: 80vh;
 }
 
 #TodayList {
-  min-height: 15%;
+  min-height: 10%;
 }
 #FutureList {
-  min-height: 15%;
+  min-height: 10%;
 }
 #completedList {
-  min-height: 15%;
+  min-height: 10%;
 }
 h1 {
   text-align: center;
