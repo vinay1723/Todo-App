@@ -12,8 +12,18 @@ body {
 
 main {
   width: 97vw;
+  height: 100vh;
 }
 
+#TodayList {
+  min-height: 15%;
+}
+#FutureList {
+  min-height: 15%;
+}
+#completedList {
+  min-height: 15%;
+}
 h1 {
   text-align: center;
   font-family: Inter;
