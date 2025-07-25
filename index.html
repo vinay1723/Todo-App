@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="icon" href="./imgs/todoIcon.png" />
+    <title>To-Do App</title>
+  </head>
+  <body>
+    <header><h1>To-Do List</h1></header>
+    <main>
+      <section class="details">
+        <input type="text" placeholder="Item Name" id="task" />
+        <input
+          type="text"
+          placeholder="Deadline"
+          class="extra_details"
+          id="date_field"
+        />
+        <select class="extra_details">
+          <option>High</option>
+          <option>Medium</option>
+          <option>Low</option>
+        </select>
+        <button id="add_item">Add Item</button>
+      </section>
+      <section id="TodayList">
+        <h2>Today's TodoList</h2>
+      </section>
+      <section id="FutureList">
+        <h2>Future TodoList</h2>
+      </section>
+      <section id="completedList">
+        <h2>Completed TodoList</h2>
+      </section>
+    </main>
+    <script src="./script.js" type="text/javascript"></script>
+  </body>
+</html>

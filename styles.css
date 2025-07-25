@@ -1,0 +1,151 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+main {
+  width: 97vw;
+}
+
+h1 {
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 44px;
+  line-height: 100%;
+  margin: 20px 0px;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+input {
+  border: 2px solid #000000;
+  font-size: 18px;
+}
+
+#task {
+  width: 33vw;
+  height: 53px;
+  top: 129px;
+  left: 37px;
+  opacity: 1;
+  border: 2px solid black;
+  padding: 0px 10px;
+}
+
+/* input[type="date"] {
+  display: none;
+}
+
+.deadline {
+  width: 23vw;
+  height: 53px;
+  opacity: 1;
+  border: 2px solid black;
+  padding: 0px 10px;
+  font-size: 18px;
+} */
+
+.extra_details {
+  width: 23vw;
+  height: 53px;
+  opacity: 1;
+  border: 2px solid black;
+  padding: 0px 10px;
+  font-size: 18px;
+}
+
+#add_item {
+  width: 14vw;
+  height: 53px;
+  opacity: 1;
+  font-family: Inter;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 100%;
+  text-align: center;
+  background-color: #000000;
+  color: #ffff;
+  border: none;
+}
+
+section > h2 {
+  margin: 20px 0px;
+  font-family: Inter;
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+section > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #000000;
+  color: white;
+  margin-bottom: 10px;
+  font-family: Inter;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  border-radius: 4px;
+}
+
+#finished {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #ffff;
+  color: black;
+  margin-bottom: 10px;
+  font-family: Inter;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  border-radius: 4px;
+  border: 2px solid black;
+}
+
+img {
+  width: 20px;
+  height: 20px;
+  margin: 0px 5px;
+}
+
+#icons {
+  display: flex;
+  align-items: center;
+}
+
+section div p:nth-child(1) {
+  width: 25%;
+}
+
+section div p:nth-child(2) {
+  width: 25%;
+}
+section div p:nth-child(3) {
+  text-align: start;
+  width: 25%;
+}
