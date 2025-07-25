@@ -196,7 +196,9 @@ function renderCompletedList(tasks) {
 
 window.onload = () => {
   const tasks = JSON.parse(localStorage.getItem("tasklist"));
-  renderTodayList(filterTodayTasks(tasks));
-  renderFutureList(filterFutureTasks(tasks));
-  renderCompletedList(filterCompletedTasks(tasks));
+  if (tasks) {
+    renderTodayList(filterTodayTasks(tasks));
+    renderFutureList(filterFutureTasks(tasks));
+    renderCompletedList(filterCompletedTasks(tasks));
+  }
 };
